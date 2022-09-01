@@ -1,0 +1,8 @@
+<h2>Programming Books List!</h2>
+
+<ul *ngIf="isShowing" class="flex flex-wrap justify-center">
+    <ng-container *ngFor="let singleCity of weather; let i=index">
+
+        <app-city [city]="singleCity"></app-city>
+    </ng-container>
+</ul>

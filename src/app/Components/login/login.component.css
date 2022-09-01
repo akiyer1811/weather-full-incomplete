@@ -1,0 +1,11 @@
+#register-form{
+    width: 400px;
+}
+ body{
+    margin: 0;
+    padding:0
+}
+.container{
+    padding-inline-start: 400px;
+    padding-top: 100px;
+}
